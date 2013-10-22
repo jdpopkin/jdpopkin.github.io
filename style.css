@@ -1,0 +1,74 @@
+html, body, section, article, header, div, p, img, a, time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: sans-serif;
+  color: #444444;
+  background: #F5F5F5;
+}
+
+a {
+  font-decoration: none;
+  color: #444444;
+}
+
+a:hover {
+  font-decoration: underline;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Clearfix */
+.group:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+/* Class-specific stylings. */
+
+.header {
+  margin: 20px 0 20px 0;
+}
+
+.left {
+  float: left;
+  margin-left: 15px;
+}
+
+.header-nav {
+  float: right;
+}
+
+.header-nav > ul > li {
+  float: right;
+  padding: 0 15px 0 0;
+}
+
+.content {
+  padding: 20px 20px 20px 20px;
+}
+
+/* Styles related to the resume page. */
+.left-text {
+  float: left;
+}
+
+.center-text {
+  float: left;
+
+}
+
+.right-text {
+  float: right;
+}

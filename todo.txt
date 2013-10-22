@@ -1,0 +1,14 @@
+First: summary. Add to LinkedIn and use for facebook application.
+
+Add Snake to site. See if the push goes through. If so, you may need to do
+some witchcraft to host it at snake.jacksondunnpopkin.com instead of
+jacksondunnpopkin.com/snake.
+
+Add something else? Maybe Asteroids?
+
+Video on diff between CNAME and A records (for URL redirection):
+http://www.youtube.com/watch?v=WqhgGpv4cKY
+
+fuck it do a facebook puzzle
+
+imitate: http://jameslutley.com/
