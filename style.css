@@ -14,18 +14,30 @@ body {
 }
 
 a {
-  font-decoration: none;
-  color: #444444;
+  text-decoration: none;
+  color: #FF5D52;
 }
 
 a:hover {
-  font-decoration: underline;
+  text-decoration: underline;
 }
 
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  list-style-type: disc;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
 }
 
 /* Clearfix */
@@ -37,26 +49,61 @@ ul {
 
 /* Class-specific stylings. */
 
+.lighter {
+  color: #8D8D8D;
+}
+
 .header {
-  margin: 20px 0 20px 0;
+  padding: 50px 0 20px 0;
+  width: 930px;
+  margin: auto;
+  border-bottom: 1px solid #DCDCDC;
+  border-width: 0 0 5px 0;
+  border-style: double;
 }
 
 .left {
   float: left;
-  margin-left: 15px;
+}
+
+.left > a {
+  color: #444444;
 }
 
 .header-nav {
   float: right;
 }
 
+.header-nav > ul {
+  list-style: none;
+}
+
 .header-nav > ul > li {
   float: right;
-  padding: 0 15px 0 0;
+  padding: 0 6px 0 0;
+}
+
+.header-nav > ul > li:after {
+  content: "/";
+}
+
+.header-nav > ul > li:first-child:after {
+  content: "";
 }
 
 .content {
-  padding: 20px 20px 20px 20px;
+  padding: 20px 50px 20px 50px;
+  width: 930px;
+  margin: auto;
+}
+
+.projects-list {
+/*  list-style-type: disc;*/
+  list-style: none;
+}
+
+.projects-list > li {
+  padding: 0 0 10px 0;
 }
 
 /* Styles related to the resume page. */
@@ -71,4 +118,33 @@ ul {
 
 .right-text {
   float: right;
+}
+
+.feature-list {
+  list-style: none;
+}
+
+.feature-list > li:before {
+  content: "\2014";
+}
+
+.feature-list > li {
+  padding: 15px 0 0 30px;
+
+}
+
+.awards-list {
+  list-style: none;
+}
+
+.links-list {
+  list-style: none;
+}
+
+.awards-list > li, .links-list > li {
+  padding: 0px 0 15px 0;
+}
+
+.awards-list > li:last-child, .links-list > li:last-child {
+  padding: none;
 }
